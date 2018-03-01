@@ -1,0 +1,21 @@
+﻿<Window x:Class="ToDoList_C.TaskDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoList_C"
+        mc:Ignorable="d"
+        Title="Task" Height="261.717" Width="315.38"
+        ContentRendered="Window_ContentRendered">
+    <Grid Margin="0,0,4,-20">
+        <Label Name="lblTitle" Content="Title" HorizontalAlignment="Center" Margin="114,10,116,0" VerticalAlignment="Top" Height="27" Width="32"/>
+        <Label Name="lblDescr" Content="Description" HorizontalAlignment="Center" Margin="91,65,85.8,0" VerticalAlignment="Top" Height="27" Width="77"/>
+        <TextBox Name="AnswTitle" HorizontalAlignment="Center" Height="23" Margin="71,37,71,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="AnswDescr" HorizontalAlignment="Center" Height="87" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170" Margin="46,97,46,0" RenderTransformOrigin="0.385,0.65"/>
+        <WrapPanel HorizontalAlignment="Center" Margin="70,198,52,9.8" Width="140" >
+            <Button IsCancel="True" MinWidth="60"  Margin="0,0,10,0">Cancel</Button>
+            <Button IsDefault="True" Name="btnDialogOk" Click="btnDialogOk_Click" MinWidth="60">Valid</Button>
+        </WrapPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="ToDoList_C.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoList_C"
+        mc:Ignorable="d"
+        Title="ToDo List" Height="362.709" Width="542.598">
+    <Grid Margin="0,0,-27.6,-19.2">
+        <Button Name="NewTask" Content="Add new Task" HorizontalAlignment="Left" Height="29" Margin="430,10,0,0" VerticalAlignment="Top" Width="78" Click="NewTask_Click"/>
+        <Button Name="EditTask" Content="Edit Task" HorizontalAlignment="Left" Height="29" Margin="430,57,0,0" VerticalAlignment="Top" Width="78" Click="EditTask_Click"/>
+        <Button Name="DeleteTask" Content="Delete Task" HorizontalAlignment="Left" Height="29" Margin="430,104,0,0" VerticalAlignment="Top" Width="78" RenderTransformOrigin="0.382,-0.129" Click="DeleteTask_Click"/>
+        <ListBox Name="TaskList" HorizontalAlignment="Left" Height="282" VerticalAlignment="Top" Width="415" Margin="10,39,0,0" HorizontalContentAlignment="Stretch" MouseDoubleClick="TaskList_MouseDoubleClick">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Margin="0,0,10,0" Text="{Binding title}"/>
+                        <TextBlock Margin="0,0,10,0" Grid.Column="1" Text="{Binding description}"/>
+                        <CheckBox  Name="FinishedTask" Grid.Column="2" IsChecked="{Binding isFinish, Mode=TwoWay}" Click="FinishedTask_Click"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top" RenderTransformOrigin="0.337,-0.608" Width="94"/>
+        <TextBlock HorizontalAlignment="Left" Margin="115,10,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" RenderTransformOrigin="0.469,-0.507"/>
+        <TextBlock HorizontalAlignment="Left" Margin="318,10,0,0" TextWrapping="Wrap" Text="Done ?" VerticalAlignment="Top" RenderTransformOrigin="0.795,-0.331"/>
+    </Grid>
+</Window>

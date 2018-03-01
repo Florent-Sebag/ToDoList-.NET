@@ -1,0 +1,17 @@
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\bin\Release\ToDoList-C.exe.config
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\bin\Release\ToDoList-C.exe
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\bin\Release\ToDoList-C.pdb
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\MainWindow.g.cs
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\TaskDialog.g.cs
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\App.g.cs
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList-C_MarkupCompile.cache
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList-C_MarkupCompile.lref
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\MainWindow.baml
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\TaskDialog.baml
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList-C.g.resources
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList_C.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList-C.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList-C.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList-C.exe
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList-C.pdb
+C:\Users\Administrateur\Desktop\ToDoList-C\ToDoList-C\obj\Release\ToDoList-C.csprojResolveAssemblyReference.cache
